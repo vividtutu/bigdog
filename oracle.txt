@@ -1,0 +1,7 @@
+﻿export ORACLE_BASE=/oracle 
+export ORACLE_HOME=$ORACLE_BASE/product/102 
+export PATH=$ORACLE_HOME/bin:$PATH 
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$ORACLE_HOME/lib32 
+export LIBPATH=$ORACLE_HOME/lib 
+stty erase ^h 
+export PS1=$LOGNAME@`hostname`['$PWD']$ 
